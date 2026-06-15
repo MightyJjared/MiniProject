@@ -1,0 +1,21 @@
+{
+  // VS Code launch configuration for Flutter
+  // Press F5 or click Run > Start Debugging to launch on your connected Android device
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Smart Attendance Planner",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "flutterMode": "debug"
+    },
+    {
+      "name": "Release Mode",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "flutterMode": "release"
+    }
+  ]
+}
